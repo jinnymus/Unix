@@ -1,0 +1,14 @@
+@comment PKG_FORMAT_REVISION:1.1
+@name start_server_1.0
+@cwd /usr/local
+@option extract-in-place
+@srcdir /var/tmp/start_server
+start_server.sh
+@cwd .
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++MTREE_DIRS
+@mtree +MTREE_DIRS
